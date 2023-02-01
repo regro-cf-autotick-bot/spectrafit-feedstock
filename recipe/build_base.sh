@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-rm pyproject.toml
+# rm pyproject.toml
 # Set a few environment variables that are not set due to
 # https://github.com/conda/conda-build/issues/3993
 PIP_NO_BUILD_ISOLATION=False \
